@@ -5,9 +5,14 @@
 #### Node.js version 10.13以降が必要です。 -> ターミナル `node -v`でver確認出来ます。
 ### 1-2.  必要 module のインストール
     yarn add axios swr
-### 1-3.  prettierの設定 : package.json
+### 1-3.  prettierの設定 : settingsでRequire Config + Format On Saveにチェック
+configファイル新規作成
 ~~~
-"prettier": {
+touch .prettierrc
+~~~
+.prettierrcに書き内容を追加
+~~~
+{
     "singleQuote": true,
     "semi": false
 }
