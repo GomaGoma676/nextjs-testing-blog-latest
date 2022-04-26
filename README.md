@@ -10,7 +10,7 @@ configファイル新規作成
 ~~~
 touch .prettierrc
 ~~~
-.prettierrcに書き内容を追加
+.prettierrcに下記内容を追加
 ~~~
 {
     "singleQuote": true,
